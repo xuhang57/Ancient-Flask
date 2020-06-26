@@ -1,2 +1,34 @@
-# Ancient-Flask
-Ancient Versions of Flask, A Python Web Framework, For Source Code Sutdying
+# Flask Historical Version 0.1 Released in 2010
+
+Adding my own comments while studying the source code.
+
+
+                          // Flask //
+
+       because a pocket knife is not the only thing that
+                      might come in handy
+
+
+    ~ What is Flask?
+
+      Flask is a microframework for Python based on Werkzeug
+      and Jinja2.  It's intended for small scale applications
+      and was development with best intentions in mind.
+
+    ~ Is it ready?
+
+      Nope, this is still work in progress, but I am happy to
+      accept patches and improvements already.
+
+    ~ What do I need?
+
+      Jinja 2.4 and Werkzeug 0.6.1.  `easy_install` will
+      install them for you if you do `easy_install Flask==dev`.
+      I encourage you to use a virtualenv.  Check the docs for
+      complete installation and usage instructions.
+
+    ~ Where are the docs?
+
+      Go to http://flask.pocoo.org/ for a prebuild version of
+      the current documentation.  Otherwise build them yourself
+      from the sphinx sources in the docs folder.
