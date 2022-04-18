@@ -661,3 +661,9 @@ current_app = LocalProxy(lambda: _request_ctx_stack.top.app)
 request = LocalProxy(lambda: _request_ctx_stack.top.request)
 session = LocalProxy(lambda: _request_ctx_stack.top.session)
 g = LocalProxy(lambda: _request_ctx_stack.top.g)
+
+"""
+LocalStack() is imported from Werkzeug in werkzeug/local.py line 112: Class LocalStack(object)
+
+
+"""
